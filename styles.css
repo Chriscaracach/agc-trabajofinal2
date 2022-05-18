@@ -1,0 +1,30 @@
+body {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: cyan;
+  border-radius: 20px;
+  padding: 10px;
+}
+.thumbnail-img {
+  cursor: pointer;
+}
+
+#display-img {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
